@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Contacto - Tbody Supplements</title>
+    <style>
+        /* Estilos generales (puedes personalizar según tus preferencias) */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #201f1f33;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: left;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            font-family: 'Roboto', sans-serif;
+            font-size: 24px;
+            color: #4CAF50; /* Verde oscuro */
+            margin: 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        /* Estilos específicos para la página de contacto */
+        section {
+            padding: 20px;
+            text-align: left;
+        }
+
+        .contact-info {
+            width: 20%; /* Ancho ajustado */
+            padding: 20px;
+            background-color: #ffffff2c;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        form {
+            max-width: 800px;
+            margin-top: 100px; /* Espacio añadido arriba del formulario */
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-left: 500px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input,
+        textarea {
+            width: calc(100% - 20px);
+            padding: 8px;
+            margin-bottom: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .half-width {
+            width: calc(50% - 10px);
+            display: inline-block;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        /* Añade un separador vertical */
+        .separator {
+            border-left: 2px solid #ccc;
+            height: 100%;
+            margin: 0 20px; /* Incrementa el margen */
+        }
+        #footer {
+    background-color: #333;
+    color: rgb(246, 248, 248);
+    padding: 20px;
+    transition: max-height 0.5s ease-out;
+    overflow: hidden;
+    max-height: 300px; /* Ajusta este valor según el tamaño de tu footer */
+  }
+  #footer.collapsed {
+    max-height: 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-section {
+    flex-basis: 30%;
+  }
+  
+  .footer-section h4 {
+    border-bottom: 5px solid #eb0c0c46;
+    padding-bottom: 10px;
+  }
+  
+  .footer-section a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .container {
+            text-align: center;
+            padding: 20px;
+        }
+
+        img {
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>TBody Supplements</h1>
+        <nav>
+            <a href="file:///C:/Users/fito/Documents/paginas/index.html#">Inicio</a>
+            <a href="#">Tienda</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="file:///C:/Users/fito/Documents/paginas/Categorias.html">Categorias</a>
+        </nav>
+    </header>
+
+   
+        <div class="contact-info">
+            <h2>Información de contacto:</h2>
+           
+            <a href="https://web.whatsapp.com/">WhatsApp:   557-456-1548</a> 
+<br>
+            <br>
+            <a href="https://gmail.com/">Correo:TBody_Supplements@gmail.com</a>
+        </div>
+
+        <div class="separator"></div>
+
+        <form>
+            <div class="half-width">
+                <label for="nombre">Nombre y apellido</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="half-width">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="half-width">
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" name="telefono">
+            </div>
+            <div class="half-width">
+                <label for="empresa">Empresa</label>
+                <input type="text" id="empresa" name="empresa">
+            </div>
+
+            <label for="asunto">Asunto</label>
+            <input type="text" id="asunto" name="asunto">
+
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+            <label for="boletin">Recibir boletín / newsletter</label>
+            <input type="checkbox" id="boletin" name="boletin">
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <div class="container">
+        <img src="https://www.descartablesdeuruguay.com.uy/imgs/banners/filename500.png?1686681714" alt="informacion de pago">
+    </div>
+    
+    <!-- Puedes agregar un pie de página si lo deseas -->
+    <footer>
+        <footer id="footer">
+            <button id="toggleFooter">Mostrar/Ocultar</button>
+            <div class="footer-container">
+              <div class="footer-section">
+                <h4>Información de la empresa</h4>
+                <p>Bienvenido a TBody Supplements, tu destino en línea para alcanzar tus metas de fitness y bienestar. En TBody, nos dedicamos a proporcionar los mejores suplementos y productos de calidad para ayudarte en tu viaje hacia una vida más saludable y activa.
+
+                    Fundada con la pasión por el fitness y el compromiso con la excelencia, nuestra tienda ofrece una amplia gama de productos, desde proteínas en polvo de alta calidad hasta potentes pre-entrenamientos y suplementos especializados. Nos esforzamos por brindar a nuestros clientes acceso a marcas confiables y productos innovadores que respalden sus objetivos de entrenamiento.
+
+                   
+                    </p>
+              </div>
+              <div class="footer-section">
+                <h4>Contacto</h4>
+                <p>
+                Dirección: Calle Fitness, #123
+                    Ciudad Saludville
+                    País: EnergíaLandia
+                    
+                    WhatsApp: +123 456 789
+                    Correo Electrónico: info@tbodysupplements.com
+                    
+                    En TBody Supplements, valoramos la comunicación y estamos aquí para responder a todas tus preguntas. Ya sea que necesites asesoramiento sobre productos, información de envío o simplemente quieras compartir tus logros en el fitness, no dudes en contactarnos. Nuestro equipo de atención al cliente está disponible para ayudarte en cualquier momento.
+                    
+                    **¡Esperamos escuchar de ti y ser parte de tu viaje hacia un estilo de vida más saludable y activo!**
+                    </p>
+              </div>
+              <div class="footer-section">
+                <h4>Redes sociales</h4>
+                <!-- Aquí puedes agregar enlaces a tus redes sociales -->
+                <a href="https://www.facebook.com/">facebook.com/TBodySupplements</a> <br><br>
+                <a href="https://www.Twitter.com/">Twitter: @TBodySupplements</a><br><br>
+                <a href="https://Instagram.com/">Instagram: @TBody_Supplements</a>
+              </div>
+            </div>
+            
+    </footer>
+<script>
+     document.getElementById('toggleFooter').addEventListener('click', function() {
+  document.getElementById('footer').classList.toggle('collapsed');
+});
+</script>
+
+</body>
+</html>
